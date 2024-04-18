@@ -95,6 +95,10 @@ body {
   color: var(--blue);
   text-decoration: underline;
 }
+.header-social {
+  width: 20px;
+  height: 20px;
+}
 
 /*Hero section style */
 .hero-section {
@@ -159,6 +163,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--light-black);
   margin-bottom: 94px;
+}
+.about-icon {
+  width: 70px;
+  height: 70px;
 }
 /*What we do section style*/
 h2 {
@@ -315,14 +323,7 @@ h2 {
   color: var(--blue);
   text-decoration: underline;
 }
-.header-social {
-  width: 20px;
-  height: 20px;
-}
-.header-social:hover {
-  color: var(--blue);
-  text-decoration: underline;
-}
+
 /*Main section style*/
 .main-section__btn {
   display: flex;
