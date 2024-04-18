@@ -165,9 +165,18 @@ body {
   margin-bottom: 94px;
 }
 .about-icon {
-  width: 70px;
-  height: 70px;
+  width: 267px;
+  height: 120px;
+  margin-left: 30px;
+  padding: 25px 100px;
+  top: 774px;
+  left: 515px;
+  border-radius: 4px 0px 0px 0px;
+  display: inline-block;
+  align-items: center;
+  background-color: var(--light-grey);
 }
+
 /*What we do section style*/
 h2 {
   font-family: inherit;
@@ -215,8 +224,50 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--black);
 }
-.custom-h2 {
+.team-title {
   margin-top: 94px;
+}
+
+.team-social {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
+  list-style: none;
+}
+
+.team__socials li {
+  background-color: var(--white);
+  padding: 12px;
+  border-radius: 100px;
+}
+
+.team__socials li:hover {
+  fill: var(--blue);
+}
+.socials {
+  width: 20px;
+  height: 20px;
+}
+
+/*Customers section style*/
+.customers__title {
+  font-family: var(--primary-font);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 94px;
+}
+
+.customer-icon {
+  width: 126px;
+  height: 60px;
+  top: 2493px;
+  left: 215px;
+  gap: 0px;
+  border-radius: 4px 0px 0px 0px;
 }
 /*Footer section style*/
 .footer-section {
