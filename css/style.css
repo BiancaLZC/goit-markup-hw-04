@@ -274,13 +274,16 @@ h2 {
   text-align: center;
   margin-top: 94px;
 }
+.customers-section li:hover {
+  fill:  var(--blue);
+}
 .customers__icons {
   width: 170px;
  height: 92px;
  top: 2493px;
  left: 1215px;
  border: 1px solid #AFB1B8;
- padding:16px 32px;
+ margin:16px 32px;
 }
 .icons {
   width: 106px;
@@ -321,6 +324,7 @@ h2 {
 .footer-section .logo-link p {
   color: var(--white);
 }
+.footer
 
 .find-us__title {
   font-family: var(--primary-font);
