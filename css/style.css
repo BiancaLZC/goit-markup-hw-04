@@ -4,6 +4,7 @@
   --white: #ffffff;
   --light-black: #757575;
   --black: #212121;
+  --second-black: rgba(255, 255, 255, 0.1);
   --primary-background-color: #2f303a;
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
@@ -98,6 +99,11 @@ body {
 .header-social {
   width: 20px;
   height: 20px;
+  margin-right: -50px;
+}
+.header-socials:hover {
+  fill: transparent;
+  background-color: var(--blue);
 }
 
 /*Hero section style */
@@ -218,7 +224,7 @@ h2 {
 }
 .team-section__subtitle {
   text-align: center;
-  margin: 4px 0 30px 0;
+  margin: 4px 0 16px 0;
   font-size: 16px;
   line-height: 18.75px;
   letter-spacing: 0.03em;
@@ -227,23 +233,22 @@ h2 {
 .team-title {
   margin-top: 94px;
 }
-
-.team-social {
+.team__socials {
   display: flex;
   gap: 10px;
   justify-content: center;
-  margin-top: 30px;
-  list-style: none;
 }
-
 .team__socials li {
+  list-style: none;
   background-color: var(--white);
+  margin: 0 30px 30px -32px;
   padding: 12px;
   border-radius: 100px;
 }
-
-.team__socials li:hover {
-  fill: var(--blue);
+.team__socials li:hover,
+.team__socials li:focus {
+  background-color: var(--blue);
+  fill: var(--white);
 }
 .socials {
   width: 20px;
@@ -260,15 +265,17 @@ h2 {
   text-align: center;
   margin-top: 94px;
 }
-
-.customer-icon {
-  width: 126px;
-  height: 60px;
-  top: 2493px;
-  left: 215px;
-  gap: 0px;
-  border-radius: 4px 0px 0px 0px;
+.customers__icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0 94px 0;
 }
+.icons {
+  width: 106px;
+  height: 60px;
+}
+
 /*Footer section style*/
 .footer-section {
   padding: 60px 0;
@@ -303,6 +310,36 @@ h2 {
 }
 .footer-section .logo-link p {
   color: var(--white);
+}
+
+.find-us__title {
+  font-family: var(--primary-font);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.find-us__socials {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.find-us__socials li {
+  list-style: none;
+  background-color: var(--second-black);
+  margin: 0 30px 30px -32px;
+  padding: 12px;
+  border-radius: 100px;
+}
+.find-us__socials li:hover,
+.find-us__socials li:focus {
+  background-color: var(--blue);
+  fill: var(--second-black);
+}
+.us__social {
+  width: 20px;
+  height: 20px;
 }
 
 /*Portfolio style*/
