@@ -290,12 +290,15 @@ h2 {
   height: 60px;
 }
 /*Footer section style*/
-.footer-section {
-  padding: 60px 0;
+
+.footer-section__info {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--primary-background-color);
   color: var(--white);
 }
+
 .address p {
   letter-spacing: 0.03rem;
 }
@@ -353,6 +356,10 @@ h2 {
 .us__social {
   width: 20px;
   height: 20px;
+}
+.footer-section__socials {
+  margin-right: 1000px;
+  white-space: nowrap;
 }
 
 /*Portfolio style*/
@@ -452,7 +459,7 @@ h2 {
 .our-projects {
   margin-top: 20px;
   gap: 30px;
-  padding: 30px 94px;
+  padding: 30px 0;
   display: flex;
   flex-wrap: wrap;
 }
@@ -478,6 +485,7 @@ h2 {
 /*Footer section style*/
 .footer-section {
   padding: 60px 0;
+  padding-left: 215px;
   display: flex;
   background-color: var(--primary-background-color);
   color: var(--white);
