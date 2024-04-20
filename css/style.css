@@ -99,13 +99,9 @@ body {
 .header-social {
   width: 20px;
   height: 20px;
-  margin-right: -50px;
+  margin-right: -30px;
 }
-.header__social:hover,
-.header__social:focus {
-  fill: var(--blue);
-  text-decoration: underline;
-}
+
 /*Hero section style */
 .hero-section {
   display: flex;
