@@ -265,6 +265,11 @@ h2 {
   fill: var(--white);
   list-style: none;
 }
+.icons:hover,
+.icons:focus  {
+  background-color: var(--blue);
+  fill: var(--light-black);
+}
 .customers__title {
   font-family: var(--primary-font);
   font-size: 36px;
@@ -274,21 +279,19 @@ h2 {
   text-align: center;
   margin-top: 94px;
 }
-.customers-section li:hover {
-  fill:  var(--blue);
-}
 .customers__icons {
   width: 170px;
  height: 92px;
  top: 2493px;
  left: 1215px;
  border: 1px solid #AFB1B8;
- margin:16px 32px;
 }
 .icons {
   width: 106px;
   height: 60px;
+  margin:16px 32px;
 }
+
 /*Footer section style*/
 
 .footer-section__info {
@@ -356,10 +359,6 @@ h2 {
 .us__social {
   width: 20px;
   height: 20px;
-}
-.footer-section__socials {
-  margin-right: 1000px;
-  white-space: nowrap;
 }
 
 /*Portfolio style*/
@@ -449,10 +448,11 @@ h2 {
 }
 .btn-item:hover,
 .btn-item:focus {
-  color: var(--blue);
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);,
-  0px 4px 4px 0px rgba(0, 0, 0, 0.06);,
-  0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  color: var(--black);
+  background-color: var(--blue);
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16); ,
+              0px 4px 4px 0px rgba(0, 0, 0, 0.06); ,
+              0px 1px 1px 0px rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
 /* Img container section style */
@@ -487,6 +487,8 @@ h2 {
   padding: 60px 0;
   padding-left: 215px;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   background-color: var(--primary-background-color);
   color: var(--white);
 }
